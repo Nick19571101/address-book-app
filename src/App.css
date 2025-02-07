@@ -1,0 +1,66 @@
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	margin: 0 auto;
+}
+
+.btn {
+	border-radius: 8px;
+	border: 1px solid transparent;
+	padding: 0.6em 1.2em;
+	font-size: 1em;
+	font-weight: 500;
+	font-family: inherit;
+	background-color: #0723c0;
+	color: yellow;
+	cursor: pointer;
+	transition: background-color 0.7s;
+}
+
+.btn:hover {
+	background-color: #095f1f;
+}
+
+.address__book {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 1rem;
+	padding: 2rem;
+}
+
+.address__book_left {
+	display: flex;
+	flex: 0 1 30%;
+	flex-direction: column;
+	align-items: center;
+	background: rgba(33, 134, 2, 0.5);
+	padding: 1rem 3rem 1.6rem 0.5rem;
+}
+
+.list-group-item {
+	color: rgb(20, 20, 20);
+	padding: .6rem 1rem;
+	border: 1px solid #c5c9c6;
+	border-radius: 0.7rem;
+	width: 20rem;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	gap: 0.3rem;
+}
+
+.list-group-item:not(:last-child) {
+	margin-bottom: 1rem;
+}
+
+.address__book_right {
+	background: rgba(71, 136, 233, 0.493);
+	flex: 0 1 70%;
+	padding-left: 2rem;
+}
+
+.active {
+	background-color: yellow;
+}

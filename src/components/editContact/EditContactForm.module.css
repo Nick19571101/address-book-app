@@ -1,0 +1,60 @@
+.contactForm {
+	max-width: 25rem;
+	display: flex;
+	flex-direction: column;
+	row-gap: 16px;
+	padding: 1.6rem;
+	border: 1px solid #095f1f;
+	border-radius: 0.7rem;
+	margin: 2rem auto;
+
+}
+
+.item_form {
+	display: flex;
+	align-items: flex-end;
+}
+
+.form_label {
+	flex: 1;
+	font-size: 1.1rem;
+	font-weight: 500;
+	color: brown;
+}
+
+.form_input {
+	width: 70%;
+	padding: 0.5rem 0.7rem;
+	border-radius: 0.5rem;
+	outline: none;
+	background: rgb(200, 200, 206);
+}
+
+.btn {
+	border-radius: 8px;
+	border: 1px solid transparent;
+	padding: 0.6em 1.2em;
+	font-weight: 500;
+	font-family: inherit;
+	background-color: #0723c0;
+	color: yellow;
+	cursor: pointer;
+	transition: background-color 0.7s;
+}
+
+.btn:hover {
+	background-color: #095f1f;
+}
+
+.btn_sec {
+	border-radius: 8px;
+	border: 1px solid transparent;
+	padding: 0.6em 1.2em;
+	font-weight: 500;
+	font-family: inherit;
+	background-color: rgb(231, 29, 63);
+	color: yellow;
+	cursor: pointer;
+	transition: background-color 0.7s;
+	margin-left: 1rem;
+}
